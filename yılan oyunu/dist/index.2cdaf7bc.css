@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: bold 15px Comic Sans;
+}
+
+#main {
+  width: 360px;
+  height: 420px;
+  background-color: green;
+  border: 10px solid #000;
+  border-radius: 15px;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  display: flex;
+}
+
+#stage {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #000;
+  position: relative;
+}
+
+#status {
+  flex-flow: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

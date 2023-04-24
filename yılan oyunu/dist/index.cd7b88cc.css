@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: bold 20px Arial;
+}
+
+#main {
+  width: 360px;
+  height: 420px;
+  background-color: green;
+  border: 10px solid #000;
+  border-radius: 10px;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px auto;
+  display: flex;
+}
+
+#main #stage {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #000;
+  position: relative;
+}
+
+#main #stage #snake > div {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border: 1px solid green;
+  position: absolute;
+}
+
+#main #stage #item {
+  width: 10px;
+  height: 10px;
+  flex-flow: wrap;
+  place-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+#main #stage #item > div {
+  width: 4px;
+  height: 4px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+#main #status {
+  width: 300px;
+  flex-flow: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.notShow {
+  display: none;
+}
+
+/*# sourceMappingURL=index.cd7b88cc.css.map */
